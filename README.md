@@ -1,46 +1,75 @@
 # ASII Continuity Pilot
 
-**From fragmented crypto-risk signals to MLRO-reviewable case continuity.**
+**From fragmented Travel Rule, crypto-risk, investigation, and case signals to human-reviewed, evidence-supported, MLRO-reviewable case continuity and reporting preparation.**
 
-ASII Continuity Pilot demonstrates a focused workflow for regulated institutions in the UAE and across MENA that need to connect Travel Rule obligations, crypto-risk context, and investigation-grade case handling.
+## Purpose of this repository
 
-## Product context
+This repository presents the **ASII Continuity Pilot** as an external-facing concept and workflow reference for regulated financial crime teams.
 
-ASII is an AI-native Financial Crime Intelligence Infrastructure platform designed for regulated financial institutions operating in high-accountability environments. This pilot showcases how institutions can move from disconnected alerts and ad hoc data handling toward structured, human-reviewed continuity in financial crime investigations.
+It is designed to show how institutions can connect:
+- Travel Rule obligations and handoffs
+- Crypto-risk context and signal interpretation
+- Investigation actions and evidence traceability
+- Case continuity for escalation and reporting preparation
 
-The Continuity Pilot is intentionally focused on three operational layers:
+## Pilot positioning
 
-- **Travel Rule** data and obligation-aware intake
-- **Crypto Risk** intelligence and contextual enrichment
-- **Case Continuity** across evidence, analyst actions, and escalation readiness
+ASII is an AI-native Financial Crime Intelligence Infrastructure platform focused on **UAE first** and **MENA second**.
 
-## Workflow
+The Continuity Pilot is positioned as an **overlay, not rip-and-replace**. It does **not** replace:
+- Travel Rule providers
+- Blockchain analytics tools
+- Screening systems
+- Case management systems
+- Analysts, MLROs, or regulated decision-makers
 
-Signal intake → Crypto-risk context → Case workspace → Evidence capture → Analyst review → MLRO escalation → Reporting preparation.
+## Travel Rule + Crypto Risk + Case Continuity workflow
+
+1. **Travel Rule intake and obligation-aware normalization**
+2. **Crypto-risk context enrichment and signal interpretation**
+3. **Case workspace creation with linked evidence and rationale**
+4. **Analyst investigation and continuity tracking across updates**
+5. **Human-reviewed escalation and MLRO-reviewable case packaging**
+6. **Reporting preparation for internal governance and regulatory workflows**
+
+## Target users
+
+- Financial crime operations teams at regulated institutions
+- Investigators and crypto-risk analysts
+- Compliance leadership and MLRO functions
+- Program owners aligning Travel Rule, risk, and case processes
+
+## Key workflow stages
+
+- Intake
+- Enrichment
+- Correlation
+- Investigation
+- Continuity
+- Escalation
+- Reporting preparation
 
 ## Operating principles
 
-- **Overlay, not rip-and-replace**  
-  Designed to complement existing compliance operations and systems.
-- **Human-reviewed decisioning**  
-  Analyst and MLRO oversight remain central to outcomes.
-- **Evidence-supported operating trail**  
-  Actions, rationale, and artifacts are organized for traceability.
-- **MLRO-reviewable reporting preparation**  
-  Case outputs are prepared for formal internal review and regulatory-facing workflows.
+- **Overlay, not rip-and-replace**
+- **Human-reviewed operations with accountable ownership**
+- **Evidence-supported case development and traceability**
+- **MLRO-reviewable outputs before formal submission steps**
+- **Reporting preparation, not automated regulatory filing**
 
-## What this repo demonstrates
+## Compliance language boundaries
 
-- A practical, presentation-ready continuity workflow for Travel Rule + crypto-risk investigations
-- Structured framing for case development from intake to escalation
-- A UAE-first, MENA-focused operating posture suitable for regulated institutions
-- A foundation for product demos, workflow walkthroughs, and stakeholder alignment
+This repository and pilot material:
+- do **not** claim regulatory approval
+- do **not** claim customer deployment outcomes
+- do **not** claim partnerships
+- do **not** claim revenue performance
+- do **not** perform autonomous compliance decisions
+- do **not** provide legal advice
 
-## Disclaimer
-
-This repository is **not** legal advice, **not** regulatory approval, and **not** autonomous compliance decisioning. It is a human-reviewed workflow/prototype for investigation and reporting preparation.
-
-## External links
+## Public links
 
 - Website: https://sukhrob-ziyovuudinov.vercel.app
+- GitHub website repo: https://github.com/sukhrob-ziyovuddinov/asii-website
+- GitHub strategy repo: https://github.com/sukhrob-ziyovuddinov/asii-strategy
 - LinkedIn: https://www.linkedin.com/company/asii-intelligence/

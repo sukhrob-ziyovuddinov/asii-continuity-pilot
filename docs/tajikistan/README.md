@@ -24,11 +24,27 @@ Success is not a meeting by itself. The intended stage-transition evidence is an
 
 1. `INSTITUTIONAL_BRIEF_RU.md` — decision-first Russian institutional brief.
 2. `ARCHITECTURE_ONE_PAGER_RU.md` — architecture and control boundaries.
-3. `CONTROLLED_EVALUATION_PROPOSAL_RU.md` — proposed 30-day technical evaluation / controlled PoC scope.
-4. `DEMO_SCRIPT_10_MIN_RU.md` — ten-minute institutional demonstration script.
-5. `IT_PARK_ENTRY_NOTE_RU.md` — preliminary IT Park eligibility and application mapping.
-6. `OFFICIAL_LAYER_TJ.md` — minimal Tajik-language official layer; not a full localization.
-7. `/SECURITY_DATA_BOUNDARY.md` — security, data, human-review, model-provider, retention, and evaluation boundaries.
+3. `TAJIKISTAN_RELEVANCE_NOTE_RU.md` — standalone evidence-linked relevance mapping.
+4. `CONTROLLED_EVALUATION_PROPOSAL_RU.md` — proposed 30-day technical evaluation / controlled PoC scope.
+5. `DEMO_SCRIPT_10_MIN_RU.md` — ten-minute institutional demonstration script.
+6. `DEMO_REHEARSAL_RECORD_RU.md` — controlled pass/fail evidence record; remains NOT RUN until observed.
+7. `TARGET_ACCOUNT_MAP_RU.md` — ranked Track A/Track B access routes and follow-up control.
+8. `IT_PARK_ENTRY_NOTE_RU.md` — preliminary IT Park eligibility and application mapping.
+9. `OFFICIAL_LAYER_TJ.md` — minimal Tajik-language official layer; not a full localization.
+10. `/SECURITY_DATA_BOUNDARY.md` — security, data, human-review, model-provider, retention, and evaluation boundaries.
+
+## Current readiness boundary
+
+The documentary pack is assembled for review. This does not establish demo readiness by itself.
+
+Before a controlled institutional demonstration:
+
+- complete an observed rehearsal in 10 minutes or less;
+- record the exact artifact/build version and synthetic dataset;
+- satisfy every mandatory pass criterion in `DEMO_REHEARSAL_RECORD_RU.md`;
+- obtain native review of any Tajik-language material used externally;
+- verify any institution-specific recipient and scope before sending;
+- keep production backend, credentials, data and integrations outside the demonstration unless separately approved.
 
 ## Non-negotiable evaluation controls
 

@@ -119,7 +119,7 @@ A first institutional session can remain narrow:
 5. Identify security, data, integration, and governance gaps.
 6. Agree whether a technical review, controlled PoC scoping step, or no further action is appropriate.
 
-A meeting alone is not success. A meaningful stage transition requires a documented institutional next step with a named owner or team.
+A meeting alone is not success. A meaningful stage transition requires both an identified institutional owner or evaluation team and an official institutional follow-up requesting or agreeing to a next technical, security, evaluation, controlled-PoC, or pilot-consideration step.
 
 ## Evaluation questions
 

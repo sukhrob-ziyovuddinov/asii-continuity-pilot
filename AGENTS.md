@@ -28,9 +28,9 @@ Preserve the controlled institutional-evaluation model defined by repository doc
 - least privilege;
 - no production write path;
 - no production credentials;
-- no live customer, KYC/KYB, transaction, sanctions, SAR/STR, or investigation data unless separately and explicitly approved;
+- no live customer, KYC/KYB, transaction, sanctions, SAR/STR, or investigation data unless all applicable owners have approved a documented governed data-access arrangement satisfying the full gate in `SECURITY_DATA_BOUNDARY.md` and the applicable controlled-PoC gates in `TAJIKISTAN_EVALUATION_SCOPE.md`;
 - no autonomous regulated or customer-impacting action;
-- accountable human review for material decisions;
+- an authorized institutional reviewer remains accountable for every material decision;
 - institution-designated systems of record remain authoritative unless separately agreed.
 
 Do not weaken these boundaries for convenience, demonstration speed, testing simplicity, or automation.
@@ -59,7 +59,7 @@ ASII must not autonomously:
 - approve or reject a customer;
 - dispose of or close an alert/investigation;
 - freeze, block, release, or restrict assets or transactions;
-- determine a final sanctions match;
+- determine a sanctions match;
 - file or submit a regulatory report;
 - communicate an accusation or regulatory conclusion;
 - execute enforcement or other customer-impacting action.
@@ -70,11 +70,11 @@ Machine-produced material, source evidence, analyst assessment, and final human 
 
 When AI-assisted behavior is in scope:
 
-- use synthetic content unless a separately approved institutional data arrangement exists;
+- use synthetic content unless all applicable owners have approved a documented governed data-access arrangement satisfying the repository's data-classification, legal-basis, access, provider, retention, audit, incident, testing, and responsible-owner gates;
 - treat model output as unverified analytical assistance;
 - preserve source references and reviewable output provenance;
 - record model/provider and output version where available and appropriate;
-- require accountable human validation before reliance or export;
+- require validation by an authorized institutional reviewer before reliance or export;
 - do not store or present hidden chain-of-thought as evidence;
 - do not represent generated text as a legal, compliance, sanctions, AML/CFT, or regulatory decision.
 
@@ -104,9 +104,9 @@ Do not:
 - broaden scope unnecessarily;
 - rewrite unrelated documentation;
 - introduce new implementation claims without direct evidence;
-- change evaluation boundaries without explicit authorization;
+- change evaluation boundaries unless all applicable owners have approved the documented gates in `SECURITY_DATA_BOUNDARY.md` and `TAJIKISTAN_EVALUATION_SCOPE.md`;
 - modify security, hosting, retention, data-access, or institutional-governance assumptions as if they were settled facts;
-- create production integrations, credentials, or live-data paths without explicit authorization.
+- create production integrations, credentials, or live-data paths unless all applicable legal, security, data-governance, access, retention, audit, incident, testing, and responsible-owner gates are documented and approved.
 
 Keep each PR focused on one coherent control, correction, or documentation objective.
 
@@ -152,7 +152,7 @@ unless direct evidence exists and the task explicitly requires reporting that ev
 
 ## Git and release safety
 
-Do not without explicit user authorization:
+Do not without verifiable authorization from the applicable repository or institutional owners and satisfaction of the repository's documented governance gates:
 
 - merge a pull request;
 - enable auto-merge;
@@ -162,6 +162,8 @@ Do not without explicit user authorization:
 - rewrite git history;
 - force-push;
 - delete branches, environments, data, or evidence artifacts.
+
+Evidence or evaluation artifacts may be deleted only under the agreed retention rule after legal-hold requirements are checked, continuity evidence is preserved, and verified deletion plus disposal evidence are recorded where required.
 
 For repository-guidance changes, prefer a dedicated branch and draft PR for human review.
 
